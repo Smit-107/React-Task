@@ -1,0 +1,4 @@
+.serch-call input:focus-visible,.serch-call textarea:focus-visible{
+    border: 1px black solid !important;
+    outline: none !important;
+  }

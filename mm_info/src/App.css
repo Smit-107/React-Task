@@ -1,0 +1,436 @@
+body{
+  /* background-image: url('https://st.win.qureka.com/img/webappbdg.jpg'); */
+  /* background-image: url(./image/webappbdg.jpg); */
+  background-image: url(./image/Main.jpg  );
+  background-size: cover !important; 
+  height: 100vh !important;
+  color: white !important;
+}
+.content-back-ground{
+  /* background-image: url(./image/bg.png); */
+  background-image: url(./image/mm.jpg);
+  height: 100vh !important;
+  margin: auto !important;
+  width: 100%;
+  max-width: 360px;
+  background-size: cover;
+  overflow-x: hidden;
+  
+  position: relative;
+}
+
+@media (max-width: 577px) {
+  .content-back-ground {
+    max-width: 100%;
+  }
+  .Free_coin{
+    height: 47px !important;
+    width:170px !important;
+  }
+  .p-q{
+    padding-left: 16px !important;
+    padding-right:16px !important;
+   }
+   .coin-given{font-size: 16px !important}
+}
+
+.coin-given{font-size: 18px}
+
+@media (max-width: 370px) {
+  .p-q{
+   padding-left: 8px !important;
+   padding-right: 8px !important;
+  }
+  
+}
+
+.dash-anchor{
+  text-transform: capitalize;
+  color: #000;
+  padding: 2px 13px;
+  border-radius: 19px;
+  font-size: 13px;
+  display: inline-flex;
+  font-weight: 600;
+  background-image: linear-gradient(#d8def9,#8b91ed);
+  text-decoration: none;
+  justify-content: end;
+  float: right;
+}
+
+.Free_coin{
+  height: 44px;
+  width:162px;
+}
+
+.mt-10{
+  margin-top: 10px;
+}
+
+.paly-btn .btn:hover{
+  background-color: #9015c5 ;
+  border-color: white !important;
+  color: white !important;
+  transition: 0.7s;
+}
+
+.tab-hover:hover{
+  cursor: pointer;
+}
+
+.fw-600{
+  font-weight: 600;
+}
+
+.fixed-img{
+  height: 70px !important;
+  width: 70px !important;
+}
+
+.sidebar-nav li {
+  padding: 8px 8px 8px 32px;
+  line-height: 40px;
+  border-bottom: solid 1px #ccc;
+}
+
+.sidebar-nav li a{
+  display: flex;
+  align-items: center;  
+ text-decoration: none;
+ color: black;
+}
+
+.open {
+  width: 250px;
+  transition: width 0.5s ease; /* Add transition effect for width */
+  overflow: hidden;
+}
+
+.closed {
+  width: 0;
+  transition: width 0.5s ease; /* Add transition effect for width */
+  overflow: hidden;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+.rule-uper::marker {
+  color: #9014c5;
+  font-size: 18px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  border-radius: 50%;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(61,49,100);
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.851);
+  border-radius: 6px;
+}
+
+/* ::-webkit-scrollbar-thumb:hover {
+  background-color: #0056b3;
+} */
+
+.questionhead {
+  width: 100%;
+  font-size: 26px;
+  color: #fff;
+  text-align: left;
+  font-weight: 600;
+  padding: 0 36px;
+  line-height: 33px;
+}
+.watch-btn {
+  /* background-image: url('https://1049.qureka.com/img/save-1.png'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 90%;
+  height: 65px !important;
+  display: flex;
+  text-align: center !important;
+  align-items: center !important;
+  /* padding-left: 29px; */
+  margin: auto;
+  margin-bottom: 7px;
+  text-decoration: none !important;
+
+}
+.img123{
+  position: relative;
+}
+.shimmer_new {
+  font-weight: 700;
+  font-size: 1.1em;
+  display: inline;
+  margin-bottom: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  position: absolute;
+  top: 32%;
+  left: 20%;
+}
+
+.btn-close:focus {
+  box-shadow: none !important;
+}
+
+.shimmer_new {
+  text-align: center;
+  color: rgb(255 255 255/ 0%);
+  background: -webkit-gradient(linear, left top, right top, from(#fff548), to(#fff548), color-stop(0.5, #fff));
+  -webkit-background-size: 33px 100%;
+  -moz-background-size: 33px 100%;
+  background-size: 33px 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  background-clip: text;
+  -webkit-animation-name: new-shimmer;
+  -moz-animation-name: new-shimmer;
+  animation-name: new-shimmer;
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-color: #222;
+}
+
+@-moz-keyframes new-shimmer {
+  0% {
+      background-position: top left;
+  }
+
+  100% {
+      background-position: top right;
+  }
+}
+
+/* @-webkit-keyframes shimmer {
+  0% {
+      background-position: top left;
+  }
+
+  100% {
+      background-position: top right;
+  }
+} */
+
+@-o-keyframes new-shimmer {
+  0% {
+      background-position: top left;
+  }
+
+  100% {
+      background-position: top right;
+  }
+}
+
+@keyframes new-shimmer {
+  0% {
+      background-position: top left;
+  }
+
+  100% {
+      background-position: top right;
+  }
+}
+
+
+
+
+.smile {
+  width: 100%;
+  max-width: 30px;
+  max-height: 30px;
+  float: right;
+  z-index: 999 !important;
+  position: relative;
+  margin-right: 6px;
+}
+
+.sad {
+  width: 100%;
+  max-width: 30px;
+  max-height: 30px; 
+  float: right;
+
+  z-index: 999 !important;
+  position: relative;
+  margin-right: 6px;
+}
+
+
+
+
+
+
+/* <----  loader  ---->  */
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+  height: 50vh; /* You can adjust the height as needed */
+}
+
+.loader {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-top: 4px solid white;
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+.loader::after {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-left: 4px solid #FF3D00;
+  border-bottom: 4px solid transparent;
+  animation: rotation 0.5s linear infinite reverse;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.popup {
+  margin: 75px auto;
+  padding: 20px 0;
+  background: #fff;
+  border: 1px solid #666;
+  width: 340px;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .5);
+  position: relative;
+  border-radius: 10px;
+}
+
+.popup .close {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 5px;
+  right: 9px;
+  opacity: .8;
+  transition: all .2s;
+  font-size: 24px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #666;
+}
+
+.popup .content {
+  height: auto;
+  overflow: auto;
+}
+
+.quizrankb {
+  margin-top: 20px;
+}
+
+.pointsysrow1 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  background: #efefef;
+}
+
+.pointsysrow2 {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  background: #fff;
+}
+
+.pointsysrow1left {
+  text-align: left;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.pointsysrow1right {
+  text-align: right;
+  color: #000;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 5px;
+}
+
+.coinstack1 {
+  width: 100%;
+  max-width: 25px;
+}
+
+#rankbrk {
+  z-index: 999;
+  position: fixed;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.overlay.show {
+  display: block;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, .5);
+  transition: opacity .2s;
+  display: none;
+  z-index: 999;
+}
+
+
+@media (min-width: 0px) and (max-width: 576px){
+  #rankbrk {
+    z-index: 999;
+    position: fixed;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 360px){
+  .popup {
+    width: 310px !important;
+    margin-right:  auto !important; 
+    margin-left: auto !important;
+  }
+}
+
+
+

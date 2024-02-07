@@ -1,0 +1,106 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+header{
+  background-color: rgb(0, 0, 0);
+  box-shadow: 0px 0px 1px black;
+  color: white;
+}
+.container{
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 10px;
+}
+.head{
+  display: flex;
+  justify-content: space-between ;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+.main_menu{
+  
+  display: flex;
+}
+.main_menu li a{
+  color: white;
+  font-size: 20px;
+  padding: 30px 20px;
+  display: block;
+  text-transform: capitalize;
+}
+.main_menu li:hover > a{
+  color: #009ef7;
+  transition: 0.5s;
+}
+.main_menu li{
+  position: relative;
+}
+.sub_menu{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  box-shadow:0px 0px 1px white;
+  display: none;
+  width: 200px;
+}
+.sub_menu li a{
+  padding: 10px;
+}
+.main_menu li:hover .sub_menu{
+  display: block;
+}
+
+.icon{
+  padding-top: 10px;
+}
+.p-4{
+  padding: 24px;
+}
+
+.row{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-3{
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+
+.peta_menu{
+  position: absolute;
+  top: 100%;
+  left: -280px;
+  background-color: black;
+  box-shadow:0px 0px 1px white;
+  display: none;
+  width: 1000px;
+}
+.peta_menu li a{
+  padding: 10px;
+  font-size: 14px !important;
+}
+.main_menu li:hover .peta_menu{
+  display: block;
+}
+
+.mb-1{
+  margin-bottom: 4px;
+}
+.mb-2{
+  margin-bottom: 8px;
+}
